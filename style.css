@@ -1,0 +1,66 @@
+@import url(https://fonts.googleapis.com/css?family=Khula:700);
+body {
+    /* background-color: rgb(202, 187, 197); */
+    background-image: url("cv.jpg");
+}
+
+.container {
+    text-align: center;
+    margin: 10px;
+}
+
+.container,
+h1 {
+    font-family: -webkit-pictograph;
+    font-size: xxx-large;
+    color: #8de903;
+    text-shadow: 2px 2px #04ff00;
+}
+
+table {
+    margin: auto;
+}
+
+input {
+    padding: 5px;
+    font-size: 40px;
+    border: 5px solid rgb(25 39 39);
+    border-radius: 28px;
+    background-color: rgb(129 150 189 / 88%);
+}
+
+input:hover {
+    background-color: rgb(188, 195, 209);
+}
+
+button {
+    padding: 5px 5px;
+    margin: 2px;
+    cursor: pointer;
+    font-size: 25px;
+    background: #00ff94d6;
+    width: 121px;
+    height: 47px;
+    border: 2px solid #81b20f;
+    border-radius: 28px;
+    -webkit-border-radius: 28px;
+    -moz-border-radius: 28px;
+    -ms-border-radius: 28px;
+    -o-border-radius: 28px;
+}
+
+button:hover {
+    background-color: rgb(148, 91, 70);
+}
+
+.calculater {
+    padding: 30px;
+    display: inline-block;
+    border: 2px solid rgb(25 39 39);
+    border-radius: 28px;
+    background-color: rgb(148 99 70 / 38%);
+    -webkit-border-radius: 28px;
+    -moz-border-radius: 28px;
+    -ms-border-radius: 28px;
+    -o-border-radius: 28px;
+}
